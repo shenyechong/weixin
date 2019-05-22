@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .top {
+            height: 35px;
+            /*background-color: 	#d3d3d3;*/
+            line-height: 35px;
+
+        }
+        .top .time{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 285px;
+
+        }
+        .top .iconfont{
+            font-size: 25px;
+            float: left;
+            margin-left: 5px;
+        }
+        .a1{
+            width: 130px;
+            float: left;
+        }
+        .a2{
+            width: 130px;
+            float: right;
+            text-align: left;
+        }
+        #wrap .head{
+            height: 80px;
+            /*border: 1px solid black;*/
+        }
+        #wrap .head .iconfont{
+            font-size: 65px;
+            line-height: 80px;
+        }
+        #wrap .img{
+            background-image: url("img/微信图片_20190520164402.jpg");
+            background-size: 980px 980px;
+            height: 745px;
+            width: 980px;
+        }
+        #wrap .me{
+            height: 150px;
+            /*border: 1px solid black;*/
+            border-bottom: 1px solid black;
+        }
+        #wrap .me span{
+            font-size: 60px;
+            margin-bottom: 100px;
+            position: relative;
+            top:-225px;
+            left: 535px;
+
+        }
+        #wrap .me img{
+            width: 200px;
+            height: 200px;
+            border-radius: 25px;
+            position: relative;
+            top:-110px;
+            left: 535px;
+        }
+        #wrap .content{
+            height: 320px;
+            /*border: 1px solid black;*/
+            border-bottom: 1px solid black;
+        }
+        #wrap .content div img{
+            width: 130px;
+            height: 130px;
+        }
+        #wrap .content span{
+            margin-top: 10px;
+            /*文本超出部分隐藏*/
+            overflow: hidden;
+            /*隐藏部分用省略号表示  单行文本*/
+            /*overflow: hidden;*/
+            /*text-overflow:ellipsis;*/
+            /*white-space: nowrap;*/
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+
+            width: 600px;
+            font-size: 30px;
+            float: left;
+        }
+        #wrap .content .image{
+            width: 300px;
+            height: 150px;
+            position: relative;
+            top: -80px;
+            left: 215px;
+        }
+        #wrap .content .image img{
+            width: 300px;
+            height: 150px;
+        }
+        /*a标签点击不变色*/
+        a:link {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            font-size: 12px;
+            color: #999999;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!--顶部-->
+    <div class="top">
+        <strong class="time">下午 6:00</strong>
+        <div class="a1">
+            <span class="iconfont">&#xeb07; 4.5M/s</span>    <!--信号-->
+        </div>
+        <div class="a2">
+            <span class="iconfont">&#xe61e;</span>    <!--闹钟-->
+            <span class="iconfont">36% &#xe695;</span>    <!--电池-->
+        </div>
+    </div>
+    <!--返回-->
+    <div class="head">
+    <a href="发现.html" style="text-decoration: none"><span class="iconfont" style="float: left">&#xe614;</span></a>
+    <span class="iconfont" style="float: right;margin-right: 30px">&#xeb0c;</span>
+    </div>
+
+    <!--照片墙-->
+    <div class="img"></div>
+    <div class="me">
+        <span>Kirito</span>
+        <img src="img/微信图片_20190520164402.jpg">
+    </div>
+
+    <!--内容-->
+    <div class="content">
+        <div style="width: 130px;height: 130px;margin: 40px;float: left">
+            <img src="img/微信图片_20190520164402.jpg">
+        </div>
+        <div style="width: 400px;font-size: 50px;margin-top: 40px;float: left">
+            <strong>Kirito</strong>
+        </div>
+        <div>
+            <span>基本规范:<br>
+            （1）你不应该用计算机去伤害他人；<br>
+            （2）你不应干扰别人的计算机工作；<br>
+            （3）你不应窥探别人的文件；<br>
+            （4）你不应用计算机进行偷窃；<br>
+            （5）你不应用计算机作伪证；<br>
+            （6）你不应使用或拷贝没有付钱的软件；<br>
+            （7）你不应未经许可而使用别人的计算机资源；<br>
+            （8）你不应盗用别人的智力成果；<br>
+            （9）你应该考虑你所编的程序的社会后果；<br>
+            （10）你应该以深思熟虑和慎重的方式来使用计算机。<br>
+            （11）为社会和人类作出贡献；<br>
+            （12）避免伤害他人；<br>
+            （13）要诚实可靠；<br>
+            （14）要公正并且不采取歧视性行为；<br>
+            （15）尊重包括版权和专利在内的财产权；<br>
+            （16）尊重知识产权；<br>
+            （17）尊重他人的隐私；<br>
+            （18）保守秘密。
+            </span>
+            <div style="font-size: 20px;position: relative;top: 270px;left: -385px;">10分钟前</div>
+            <strong style="font-size: 40px;position: relative;top: 215px;left: 280px;">...</strong>
+        </div>
+    </div>
+<!--2-->
+    <div class="content">
+        <div style="width: 130px;height: 130px;margin: 40px;float: left">
+            <img src="img/微信图片_20190520164402.jpg">
+        </div>
+        <div style="width: 400px;font-size: 50px;margin-top: 40px;float: left">
+            <strong>Kirito</strong>
+        </div>
+        <div class="image">
+            <img src="img/b151f8198618367aa7f3cc7424738bd4b31ce525.jpg">
+            <div style="font-size: 20px;position: relative;top: 10px;left: 0px;">10分钟前</div>
+            <strong style="font-size: 40px;position: relative;top: -45px;left: 677px;">...</strong>
+        </div>
+    </div>
+
+    <div style="height: 95px;font-size: 50px;text-align: center;margin-top: 130px">...<br>下拉出现更多哦～</div>
+</div>
+</body>
+</html>

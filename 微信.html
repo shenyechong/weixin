@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .top {
+            height: 35px;
+            background-color: 	#d3d3d3;
+            line-height: 35px;
+
+        }
+        .top .time{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 285px;
+
+        }
+        .top .iconfont{
+            font-size: 25px;
+            float: left;
+            margin-left: 5px;
+        }
+        .a1{
+            width: 130px;
+            float: left;
+        }
+        .a2{
+            width: 130px;
+            float: right;
+            text-align: left;
+        }
+        .head{
+            height: 100px;
+            background-color: 	#d3d3d3;
+            font-size: 50px;
+            line-height: 100px;
+        }
+        #wrap .head .iconfont{
+            font-size: 50px;
+            float: right;
+            margin-right: 40px;
+        }
+        #wrap ul{
+
+            height: 1450px;
+
+            overflow: scroll;
+        }
+        #wrap ul li{
+            list-style: none;
+            height: 150px;
+            /*border-bottom: 1px solid black;*/
+
+        }
+        .bottom{
+            display: flex;
+            height: 157px;
+        }
+        #wrap .bottom div{
+            flex: 1;
+            background-color: 	#d3d3d3
+        }
+        .bottom .iconfont{
+            text-align: center;
+        }
+        .bottom .iconfont a p{
+            font-size: 70px;
+            line-height: 82px;
+
+        }
+        .bottom .iconfont span{
+            font-size: 40px;
+            line-height: 60px;
+        }
+        img{
+            width: 130px;
+            height: 130px;
+            margin: 10px;
+            border-radius:25px;
+        } ul li p{
+              width: 580px;
+              font-size: 50px;
+              margin-left: 50px;
+              line-height: 90px;
+          }
+        ul li span{
+            font-size: 40px;
+
+            margin-left: 50px;
+            line-height: 90px;
+            color: 	#C0C0C0;
+        }
+        .a3{
+
+            height: 150px;
+            margin: auto;
+            float: left;
+            border-radius:65px;
+        }
+        #wrap .head .up{
+            width: 400px;
+            height: 500px;
+            background-color: #1c1c15;
+            position: absolute;
+            top: 135px;
+            left: 560px;
+            border-radius: 10px;
+            display: none;
+
+        }
+        #wrap .head .up ul{
+            list-style: none;
+        }
+        #wrap .head .up ul li{
+            color: #000;
+            height: 100px;
+            font-size: 40px;
+            border-bottom:1px solid ghostwhite ;
+        }
+        #wrap .head .up ul li .iconfont{
+            margin-left: 40px;
+            float: left;
+        }
+        #wrap .head .weilei:hover .up{
+            display: block;
+        }
+        /*a标签点击不变色*/
+        a:link {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            font-size: 12px;
+            color: #999999;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <!--顶部-->
+        <div class="top">
+        <strong class="time">下午 6:00</strong>
+        <div class="a1">
+        <span class="iconfont">&#xeb07; 4.5M/s</span>    <!--信号-->
+        </div>
+        <div class="a2">
+        <span class="iconfont">&#xe61e;</span>    <!--闹钟-->
+        <span class="iconfont">36% &#xe695;</span>    <!--电池-->
+        </div>
+    </div>
+        <!--页面头-->
+        <div class="head">
+            <span style="margin-left: 30px">微信</span>
+            <span class="iconfont weilei">&#xe617;
+                <!--伪类-->
+            <div class="up">
+            <ul>
+                <li>
+                    <span>发起群聊</span>
+                    <span class="iconfont">&#xe758;</span>
+                </li>
+                <li>
+                    <span>添加朋友</span>
+                    <span class="iconfont">&#xe613;</span>
+                </li>
+                <li>
+                    <span>扫一扫</span>
+                    <span class="iconfont">&#xe66f;</span>
+                </li>
+                <li>
+                    <span>收付款</span>
+                    <span class="iconfont">&#xe616;</span>
+                </li>
+                <li>
+                    <span>帮助与反馈</span>
+                    <span class="iconfont">&#xe7cb;</span>
+                </li>
+            </ul>
+        </div>
+            </span>
+            <span class="iconfont">&#xe637;</span>
+        </div>
+        <!--主体-->
+        <ul>
+                <a href="聊天窗口.html">
+                    <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/QQ图片20190521202825.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>一叶知秋</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>下午5:43</b></div>
+                        <div style="width: 828px;height: 60px">
+                            <span>...原来是我账号打错了</span>
+                        </div>
+                    </div>
+                </li>
+                </a>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/QQ图片20190521203040.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>三姨夫</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>下午5:17</b></div>
+                        <div style="width: 828px;height: 60px;float: left">
+                            <span>好的</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px;float: left">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px;float: left">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="a3">
+                        <div style="width: 130px;height: 130px;float: left">
+                            <img src="img/preview.jpg">
+                        </div>
+                        <div style="width: 630px;height: 60px;float: left;">
+                            <p>456</p>
+                        </div>
+                        <div style="width: 200px;height: 60px;float: right;font-size: 40px;margin-top: 15px;color: #bfbfbf;"><b>5月20日</b></div>
+                        <div style="width: 828px;height: 60px;float: left">
+                            <span>555555</span>
+                        </div>
+                    </div>
+                </li>
+
+        </ul>
+        <!--页面底部按钮-->
+        <div class="bottom">
+            <div class="iconfont">
+                <a href="微信.html" style="text-decoration: none">
+                <p>&#xe62b;</p>
+                <span>微信</span>
+                </a>
+            </div>
+            <div class="iconfont">
+                <a href="通讯录.html" style="text-decoration: none">
+                <p>&#xe602;</p>
+                <span>通讯录</span>
+                </a>
+            </div>
+            <div class="iconfont">
+                <a href="发现.html" style="text-decoration: none">
+                <p>&#xe746;</p>
+                <span>发现</span>
+                </a>
+            </div>
+            <div class="iconfont">
+                <a href="我.html" style="text-decoration: none">
+                <p>&#xe62a;</p>
+                <span>我</span>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

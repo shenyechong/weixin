@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/iconfont.css" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .top {
+            height: 35px;
+            background-color: 	#d3d3d3;
+            line-height: 35px;
+
+        }
+        .top .time{
+            font-size: 25px;
+            text-align: center;
+            margin-left: 285px;
+
+        }
+        .top .iconfont{
+            font-size: 25px;
+            float: left;
+            margin-left: 5px;
+        }
+        .a1{
+            width: 130px;
+            float: left;
+        }
+        .a2{
+            width: 130px;
+            float: right;
+            text-align: left;
+        }
+        #wrap .head{
+            height: 100px;
+            background-color: #d3d3d3;
+            /*border: 1px solid black;*/
+        }
+        #wrap .head .iconfont{
+            font-size: 65px;
+            line-height: 80px;
+        }
+        #wrap .conversation{
+            height: 1485px;
+            background-image: url("img/QQ图片20190521234336.jpg");
+            background-size: 980px 1485px;
+        }
+        #wrap .type{
+            height: 123px;
+            background-color: #d3d3d3;
+        }
+        #wrap .type .iconfont{
+            font-size: 70px;
+            line-height: 123px;
+            margin-left: 20px;
+        }
+        #wrap .type .input{
+            width: 650px;
+            height: 70px;
+            border-radius: 15px;
+            margin-left: 10px;
+            position: relative;
+            top: 9px;
+            font-size: 48px;
+
+        }
+        /*a标签点击不变色*/
+        a:link {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:visited {
+            font-size: 12px;
+            color: #000000;
+            text-decoration: none;
+        }
+        a:hover {
+            font-size: 12px;
+            color: #999999;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <!--顶部-->
+    <div class="top">
+        <strong class="time">下午 6:00</strong>
+        <div class="a1">
+            <span class="iconfont">&#xeb07; 4.5M/s</span>    <!--信号-->
+        </div>
+        <div class="a2">
+            <span class="iconfont">&#xe61e;</span>    <!--闹钟-->
+            <span class="iconfont">36% &#xe695;</span>    <!--电池-->
+        </div>
+    </div>
+
+    <!--返回-->
+    <div class="head">
+        <a href="微信.html" style="text-decoration: none">
+            <span class="iconfont" style="float: left;line-height: 100px">&#xe614;</span>
+            <span style="font-size: 50px;line-height: 100px;margin-left: 20px">一叶知秋</span>
+        </a>
+        <span style="float: right;margin-right: 30px;font-size: 60px;line-height: 100px">...</span>
+    </div>
+
+    <!--聊天界面-->
+    <div class="conversation">
+
+    </div>
+
+    <!--输入框-->
+    <div class="type">
+        <span class="iconfont">&#xe618;</span>
+        <textarea class="input"></textarea>
+        <span class="iconfont" style="font-size: 75px">&#xe823;</span>
+        <span class="iconfont">&#xe617;</span>
+    </div>
+</div>
+</body>
+</html>
